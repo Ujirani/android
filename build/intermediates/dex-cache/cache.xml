@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-b6fbcb505c2e4ffb7ca08579d933f9f98981944e.jar" />
+    </item>
+    <item
+        jar="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/exploded-aar/com.github.markushi/android-ui/1.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="96436aef5f48b09aca1e0183dfcd7782aa580bd6">
+        <dex dex="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/pre-dexed/debug/classes-b71017bda6a0847b71c1376560770c4ac482aacb.jar" />
+    </item>
+    <item
+        jar="/home/wasambo/Downloads/android-sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-ef39ad941373b3508b108903b65f784e1a836409.jar" />
+    </item>
+    <item
+        jar="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/exploded-aar/it.neokree/MaterialTabs/0.11/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fef6aa7ea0bb2d6adf10965d0a5bb8e353517bff">
+        <dex dex="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/pre-dexed/debug/classes-6d5dc04ad76f9ecedbaa7a6152bf6fbe2ee8b69c.jar" />
+    </item>
+    <item
+        jar="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/libs/volley.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/pre-dexed/debug/volley-e0f316c77fd26f296210f9990cc519a2dcc2d457.jar" />
+    </item>
+    <item
+        jar="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/pre-dexed/debug/classes-15e73e64123f0d26564040977570f66efb2cb684.jar" />
+    </item>
+    <item
+        jar="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/exploded-aar/com.github.nicolasjafelle/refreshmenuitem/1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ff5506a76353caf88426767598b469e57be84923">
+        <dex dex="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/pre-dexed/debug/classes-700e8e84073392737f35a9f2b393b60445121734.jar" />
+    </item>
+    <item
+        jar="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/pre-dexed/debug/classes-37b56d4cd0b0832acc130282b21b97ca40ad77ad.jar" />
+    </item>
+    <item
+        jar="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/exploded-aar/br.com.liveo/navigationdrawer-material/1.0.4/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1b96e0fe48e870084303e325cef0685f001ea85e">
+        <dex dex="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/pre-dexed/debug/classes-33278732b6da5d99d7484161e4d3cb5b5ea99714.jar" />
+    </item>
+    <item
+        jar="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/wasambo/Desktop/ujiraniApp/NavigationDrawer-MaterialDesign/demo/build/intermediates/pre-dexed/debug/classes-e80ef350464ceb1d0d1482b47f571c85e4c6588b.jar" />
+    </item>
+
+</items>

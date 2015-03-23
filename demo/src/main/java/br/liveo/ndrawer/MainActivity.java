@@ -7,6 +7,9 @@ import android.preference.PreferenceManager;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.util.Log;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.util.SparseIntArray;
 import android.view.Menu;
 import android.view.View;
@@ -27,7 +30,7 @@ public class MainActivity extends NavigationLiveo implements NavigationLiveoList
     @Override
     public void onUserInformation() {
         //User information here
-        this.mUserName.setText("Philomena Juma");
+        this.mUserName.setText("Philomena Jumna");
         this.mUserEmail.setText("philomena@gmail.com");
         this.mUserPhoto.setImageResource(R.drawable.profile_dummy);
         this.mUserBackground.setImageResource(R.drawable.ic_user_background);
@@ -125,7 +128,6 @@ public class MainActivity extends NavigationLiveo implements NavigationLiveoList
     protected void onResume() {
         initLocation();
         mBestLocationProvider.startLocationUpdatesWithListener(mBestLocationListener);
-
         super.onResume();
     }
 

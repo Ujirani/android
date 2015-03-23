@@ -45,6 +45,7 @@ public class FragmentText extends Fragment {
     private ListView listView;
     private FeedListAdapter listAdapter;
     private List<FeedItem> feedItems;
+
     //private String URL_FEED = "http://api.androidhive.info/feed/feed.json";
     private String URL_FEED = "http://41.242.2.154:3001/group_notifications?id=320";
     private SwipeRefreshLayout mSwipeRefreshLayout;
@@ -139,17 +140,24 @@ public class FragmentText extends Fragment {
                 item.setName(feedObj.getString("name"));
 
                 // Image might be null sometimes
-/*                String image = feedObj.isNull("image") ? null : feedObj
+
+                String image = feedObj.isNull("image") ? null : feedObj
                         .getString("image");
-                item.setImge(image);*/
+                item.setImge(image);
                 item.setStatus(feedObj.getString("status"));
                 item.setProfilePic(feedObj.getString("profilePic"));
                 item.setTimeStamp(feedObj.getString("timeStamp"));
 
                 // url might be null sometimes
+
 /*                String feedUrl = feedObj.isNull("url") ? null : feedObj
                         .getString("url");
                 item.setUrl(feedUrl);*/
+
+                String feedUrl = feedObj.isNull("url") ? null : feedObj
+                        .getString("url");
+                item.setUrl(feedUrl);
+
 
                 feedItems.add(item);
             }

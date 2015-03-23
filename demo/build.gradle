@@ -26,4 +26,5 @@ dependencies {
     compile files('libs/volley.jar')
     compile 'com.android.support:recyclerview-v7:21.0.3'
     compile 'com.github.nicolasjafelle:refreshmenuitem:1.0'
+
 }

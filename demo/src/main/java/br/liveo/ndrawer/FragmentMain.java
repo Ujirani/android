@@ -13,6 +13,11 @@ import android.location.LocationManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+
+import android.content.res.Resources;
+import android.graphics.Color;
+import android.graphics.drawable.Drawable;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
@@ -28,7 +33,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
+
 import android.widget.ArrayAdapter;
+
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -96,7 +103,6 @@ public class FragmentMain extends Fragment implements MaterialTabListener {
                             .setTabListener(this)
             );
         }
-
         refreshHelper = new RefreshMenuItemHelper();
 		rootView.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT,LayoutParams.MATCH_PARENT ));		
 		return rootView;		
@@ -226,7 +232,6 @@ public class FragmentMain extends Fragment implements MaterialTabListener {
         }
         return null;
     }
-
     public void showPanicDialogOptions(){
         AlertDialog.Builder builderSingle = new AlertDialog.Builder(
                 getActivity());

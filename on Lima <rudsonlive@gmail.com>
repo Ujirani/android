@@ -1,0 +1,631 @@
+[33mcommit 2afea33de14e7d5d7af0e2169afdcff11b26e392[m
+Author: Erick Wasambo <erickwasambo@gmail.com>
+Date:   Tue Mar 24 20:02:34 2015 +0300
+
+    intergration of nyumbakumi and old ujirani
+
+[33mcommit 0d9b3e3ed78638b26fddde03a2ed0fa25f64c7d8[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Mar 6 21:44:21 2015 -0300
+
+    ...
+
+[33mcommit e6c3e65f47161aad59c2de60aca88c98f2e26ae0[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Feb 26 22:20:47 2015 -0300
+
+    ...
+
+[33mcommit 967de7d5811534f80d83ab76b90772d24bc62e82[m
+Merge: 7d750c1 3eb40ee
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Feb 26 22:10:33 2015 -0300
+
+    Merge branch 'master' of https://github.com/rudsonlive/NavigationDrawer-MaterialDesign
+
+[33mcommit 7d750c12be6c629ec944774aba56408d8148f2ae[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Feb 26 22:10:24 2015 -0300
+
+    Version 1.0.4
+
+[33mcommit 3eb40eeecc3543b46a8fa43a552345439fc3686c[m
+Merge: 29c87ab 367025f
+Author: Adrián Mouly <adrian@mouly.com.ar>
+Date:   Wed Feb 4 18:17:06 2015 -0300
+
+    Merge pull request #23 from Ashwinvalento/master
+    
+    Update NavigationLiveo.java
+
+[33mcommit 367025fae47a54f1bb3bd40e3c8661f154a3690d[m
+Author: Ashwin Valento <Ashwinvalento@users.noreply.github.com>
+Date:   Wed Feb 4 17:15:17 2015 +0530
+
+    Update NavigationLiveo.java
+    
+    Spelling corrected. ( removeDefauldHeader ,showDefauldHeader )
+
+[33mcommit 29c87abaf50b0b0cf0ff3c2329907b4bee9a4761[m
+Author: Houssan Ali Hijazi <hussanhijazi@gmail.com>
+Date:   Thu Jan 29 10:44:45 2015 -0200
+
+    Added strings of Exceptions in strings.xml
+
+[33mcommit 9617b1c0c74c649b75f6cd738244ded4c21563c5[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Wed Jan 28 19:23:58 2015 -0300
+
+    New functions
+
+[33mcommit 5a7776cfb09eb5064461c91cb01393316eb8da4b[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Sun Jan 25 18:20:46 2015 -0300
+
+    Update CHANGELOG.md
+
+[33mcommit 4af688ea6b23775df9a570fb1c6cec23e10a6a43[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Sun Jan 25 11:06:50 2015 -0300
+
+    Update CHANGELOG.md
+
+[33mcommit fe37d2a3f4e066839b49300c493b839078858020[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Sun Jan 25 11:03:51 2015 -0300
+
+    alter file README.md
+
+[33mcommit da40dcf8bcdb1f7b41b528e34f629c9fa10fbadf[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Sun Jan 25 10:14:23 2015 -0300
+
+    New version 1.0.3
+
+[33mcommit 6c8ca1652edf66302d420981ed77469eb21947c7[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Jan 23 10:01:13 2015 -0300
+
+    Add icon ic_no_user
+
+[33mcommit d3a0e7f5638755d8371e6bd4245c1c3926bd9ab9[m
+Merge: 6232f30 f633015
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Jan 23 09:04:00 2015 -0300
+
+    Merge pull request #15 from amouly/master
+    
+    Remove unnecessary dependency of AppCompat library.
+
+[33mcommit f63301540afbb8078e4df95d57a27cdd3266c380[m
+Merge: 90fe3f5 7053e06
+Author: Adrián Mouly <adrian@mouly.com.ar>
+Date:   Thu Jan 22 18:02:55 2015 -0300
+
+    Merge remote-tracking branch 'origin/master'
+    
+    Conflicts:
+    	demo/src/main/java/br/liveo/ndrawer/FragmentMain.java
+
+[33mcommit 90fe3f573b075cd7446f2776f399094e7942c2a3[m
+Author: Adrián Mouly <adrian@mouly.com.ar>
+Date:   Thu Jan 22 17:56:02 2015 -0300
+
+    Remove unnecessary dependency of AppCompat library.
+
+[33mcommit 55791e55915ea34a3431bf33ce62058f6fdee4ed[m
+Author: Adrián Mouly <adrian@mouly.com.ar>
+Date:   Thu Jan 22 16:35:18 2015 -0300
+
+    Remove unnecessary dependency of AppCompat library.
+
+[33mcommit 7053e0667b28d6db02fd2d5ace3de2f4fda0723c[m
+Author: Adrián Mouly <adrian@mouly.com.ar>
+Date:   Thu Jan 22 16:35:18 2015 -0300
+
+    Remove unnecessary dependency of AppCompat library.
+
+[33mcommit 6232f301963788ba5ac915b66e9c716575b4c5cc[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 22 16:24:56 2015 -0300
+
+    Rename folder demo and library
+
+[33mcommit 491a6465e3854ab1c3b6dcd49266c2cb04e2baee[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 22 14:46:04 2015 -0300
+
+    alter file CHANGELOG.md
+
+[33mcommit 602b7911e976eaf50b88c353a1f9fc64b86a7ba3[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 22 14:43:34 2015 -0300
+
+    alter file CHANGELOG.md
+
+[33mcommit 9b2d1b372ddce8fea565b1f8f47bb579c078a292[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 22 14:30:01 2015 -0300
+
+    Merged pull requests
+
+[33mcommit 33a0f7e628ff1c6c05e628371155bdd6407f30c4[m
+Merge: 8197adb 0c0860b
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 22 14:23:32 2015 -0300
+
+    Merge pull request #13 from amouly/master
+    
+    Reduce simpleItem view complexity and add example of counter.
+
+[33mcommit 0c0860bdc6ca6ad19ba585f1a39aea2fb0693401[m
+Author: Adrián Mouly <adrian@mouly.com.ar>
+Date:   Thu Jan 22 14:05:55 2015 -0300
+
+    Reduce simpleItem view complexity and add example of counter.
+
+[33mcommit 8197adbf41da4c44b115fce972cf6f9353739425[m
+Merge: a73cb30 1c7406f
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 22 13:59:34 2015 -0300
+
+    Merge pull request #12 from amouly/master
+    
+    Adding Spanish support.
+
+[33mcommit 1c7406f9ad6ac9a20304156645a5130e374ecea0[m
+Author: Adrián Mouly <adrian@mouly.com.ar>
+Date:   Thu Jan 22 13:25:34 2015 -0300
+
+    Adding Spanish support.
+
+[33mcommit a73cb30f0ff80d8e52c47337886c9e63c9e51b30[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Wed Jan 21 11:03:09 2015 -0300
+
+    Version 1.0.3
+
+[33mcommit 25d18568bffaf8592135b7bfb944a3a4c748057e[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Wed Jan 21 10:48:52 2015 -0300
+
+    bug icon toolbar
+
+[33mcommit 2658db35369f065f8509d895224a7808dba65bf1[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 20 00:29:24 2015 -0300
+
+    Version 1.0.2
+
+[33mcommit 76bd8d3f794a25fb02881376ecc4b0793d40d9d0[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Mon Jan 19 20:59:55 2015 -0300
+
+    Update README.md
+
+[33mcommit 0fbd703caa4ad75e79b7619968ad4dc433c2d354[m
+Merge: 1ed5f6f 303fa41
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Mon Jan 19 20:32:43 2015 -0300
+
+    Merge branch 'master' of https://github.com/rudsonlive/NavigationDrawer-MaterialDesign
+
+[33mcommit 1ed5f6f459b337902e32ae6bfa42548785c2175f[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Mon Jan 19 20:31:57 2015 -0300
+
+    minSdkVersion 14 and support the header custom user
+
+[33mcommit 303fa410e612b708412ad032419132857f5a4b75[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Sun Jan 18 14:09:45 2015 -0300
+
+    Update README.md
+
+[33mcommit fc7680f8da62934b956bd0e2448593298332daca[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Sun Jan 18 10:19:17 2015 -0300
+
+    Update README.md
+
+[33mcommit dddf7103945461d1d27d1bf99bf44d63724c249e[m
+Merge: 5376640 f23f172
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Sat Jan 17 20:00:25 2015 -0300
+
+    Merge branch 'master' of https://github.com/rudsonlive/NavigationDrawer-MaterialDesign
+
+[33mcommit 53766409b1a0592d71ccb4458c1df385359f9ce2[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Sat Jan 17 20:00:10 2015 -0300
+
+    add custom header
+
+[33mcommit f23f172fa3fd9a6796d47b3524464d547a8bbb78[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Sat Jan 17 12:45:29 2015 -0300
+
+    Update CHANGELOG.md
+
+[33mcommit 0b51aa9361930962fea6da9994af1ee3285dadd1[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Sat Jan 17 00:23:35 2015 -0300
+
+    Update README.md
+
+[33mcommit bd7b5032137a6a7dcfde4da8e51f65998a479e48[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Sat Jan 17 00:22:24 2015 -0300
+
+    Update README.md
+
+[33mcommit 9143a8839f0adfae923c08a21738c818eca7e07a[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Sat Jan 17 00:21:45 2015 -0300
+
+    Update README.md
+
+[33mcommit 854152f3965c027f426579b927f434f72ee0893e[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Sat Jan 17 00:16:57 2015 -0300
+
+    Update README.md
+
+[33mcommit a3180c1eb57de5c0b56e78aa8bffe4e98643d55b[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Sat Jan 17 00:16:23 2015 -0300
+
+    Update README.md
+
+[33mcommit 5d062f31ec49d3061ae2e53857229d2ffe5177a2[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Sat Jan 17 00:06:35 2015 -0300
+
+    Add file CHANGELOG.md
+
+[33mcommit ac6e324e2746b52212fd502131a4c42ee36a73ab[m
+Merge: 337f105 d35c392
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Jan 16 23:55:37 2015 -0300
+
+    Merge branch 'master' of https://github.com/rudsonlive/NavigationDrawer-MaterialDesign
+
+[33mcommit 337f105c9d0bba2079c712da617f86279f45be11[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Jan 16 23:55:29 2015 -0300
+
+    add @param
+
+[33mcommit d35c392c7db745675f027fe64da123643a2b2782[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Jan 16 23:42:35 2015 -0300
+
+    Update README.md
+
+[33mcommit 7a70e32963ad28037c7b991977379e960b07cbcd[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Jan 16 23:20:45 2015 -0300
+
+    Update README.md
+
+[33mcommit 937b89f5154b5a155097f491e5c4e80a3ca23db9[m
+Merge: 65f1900 a5a227c
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Jan 16 22:58:45 2015 -0300
+
+    Merge branch 'master' of https://github.com/rudsonlive/NavigationDrawer-MaterialDesign
+
+[33mcommit 65f1900ef2db5f8d042e3d1d3a60a1c7ac966819[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Jan 16 22:58:27 2015 -0300
+
+    Color icon footer, remove alpha icon and color default icon no check
+
+[33mcommit a5a227c5ac33c47899b65c9cfce8251c014daebe[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Jan 16 22:45:20 2015 -0300
+
+    Update README.md
+
+[33mcommit b49fd83376d40e47b12baa25f12484877b381bf3[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Jan 16 22:40:25 2015 -0300
+
+    Update README.md
+
+[33mcommit 798edc90d139b3543e7ee03eba614bd296356fda[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Jan 16 19:24:21 2015 -0300
+
+    Update README.md
+
+[33mcommit db29fe0023697e8d6d7d8f778f871043e957d55d[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 15 21:25:50 2015 -0300
+
+    Update README.md
+
+[33mcommit 928e384cc827260397ff82e7633e2c73f2be1974[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 15 18:31:37 2015 -0300
+
+    Update README.md
+
+[33mcommit 7ddd461736f19cb9051d3a417e0d7959b82c79e2[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 15 15:41:30 2015 -0300
+
+    Update README.md
+
+[33mcommit 26c37a773d368fa8d2381d7d0fa1cebcbcbd72ee[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 15 15:41:18 2015 -0300
+
+    Update README.md
+
+[33mcommit 22062b8b4fa7cac3f6f58a96034aacdd4e1533d3[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 15 15:23:50 2015 -0300
+
+    Update README.md
+
+[33mcommit 669c9d28b97c01cb6659ae2ec92415a908dcff9a[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 15 15:20:30 2015 -0300
+
+    Clear code gradle
+
+[33mcommit cba194d7d98cdead14017eeee24cd09a84feff7f[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 15 12:02:14 2015 -0300
+
+    Toolbar elevation >= api 21
+
+[33mcommit 49e42380341fdb6ef927160b9a8435a247bdc460[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 15 11:43:04 2015 -0300
+
+    Update README.md
+
+[33mcommit 02ab57fc393b9577ebad20297c04ebb819ddc1f9[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 15 09:48:23 2015 -0300
+
+    Update README.md
+
+[33mcommit e757ec6a70a11a4f9bf83918108b75e124da6e17[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 15 09:47:32 2015 -0300
+
+    Update README.md
+
+[33mcommit 039e36afcfb16e4acdcd241a13d479b9d9ccf9ee[m
+Merge: df3bbc6 885cd96
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 15 00:34:53 2015 -0300
+
+    Merge branch 'master' of https://github.com/rudsonlive/NavigationDrawer-MaterialDesign
+
+[33mcommit df3bbc6f76189931d1582b61a3649e52f5f51039[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 15 00:34:33 2015 -0300
+
+    correction name of gray
+
+[33mcommit 885cd9695b29e3f450151c7e95cf0a02f15237b3[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Thu Jan 15 00:25:28 2015 -0300
+
+    Update README.md
+
+[33mcommit 00a243b23096e24372cc47594a8fcded88e29074[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Wed Jan 14 23:58:08 2015 -0300
+
+    Update README.md
+
+[33mcommit ce5e4cb36725b0e9af59f7d92a378ea779d83e5c[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Wed Jan 14 23:46:32 2015 -0300
+
+    Update README.md
+
+[33mcommit e29e07bd66ac2190cc01da846d383b4859aaa7bb[m
+Merge: 2ffb254 13967d5
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Wed Jan 14 23:38:29 2015 -0300
+
+    Merge branch 'master' of https://github.com/rudsonlive/NavigationDrawer-MaterialDesign
+
+[33mcommit 2ffb254f8887538a5172b4af91c8845240c95a2f[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Wed Jan 14 23:37:02 2015 -0300
+
+    Version Oficial lib NavigationDrawer-Material
+
+[33mcommit 12ec8cb470403bd5fba7edd212d5b9413b53c09a[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Wed Jan 14 19:29:10 2015 -0300
+
+    lib navigation drawer - material design
+
+[33mcommit 13967d5208c5ba93d9095b8cc870b39cea2425b1[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Jan 9 21:21:52 2015 -0300
+
+    Update README.md
+
+[33mcommit 5e5110a9616743cbc86f69d6f28e7f79e195673a[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Jan 9 21:03:01 2015 -0300
+
+    Update README.md
+
+[33mcommit 41efc78cf0e38fe2d27bd92ea67c689cfb75e76c[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Jan 9 20:51:03 2015 -0300
+
+    Update README.md
+
+[33mcommit c41d0faab1f6c39f58bfb6187d9483b2aab97808[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Jan 9 19:31:25 2015 -0300
+
+    cleaning in the code
+
+[33mcommit 4f6367ae7c0fb2c49302edf7517acaabd57de9dc[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Fri Jan 9 02:09:26 2015 -0300
+
+    value change of dimension and new statusBar_layout_height toolbar_shadow_black.xml
+
+[33mcommit 41ec1df52cc75738af1e805cc54fe564cdd030fa[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Wed Jan 7 18:30:17 2015 -0300
+
+    size of the changed ic_launcher
+
+[33mcommit dd7799900ae77114b02708540a14ae9552ea37c4[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Wed Jan 7 18:17:45 2015 -0300
+
+    add drawable toolbar_shadow_black.xml
+
+[33mcommit af2af5f96fccf636e1835c05998167c2d327bdc9[m
+Merge: 59c3a93 1107b0e
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 22:42:20 2015 -0300
+
+    Merge branch 'master' of https://github.com/rudsonlive/NavigationDrawer-MaterialDesign
+
+[33mcommit 59c3a93a8c77d349aa68d17bf7aef28fbdc027e1[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 22:42:00 2015 -0300
+
+    NavigationDrawer v0.1L by Material Design
+
+[33mcommit 1107b0e659114a6bdfb284e894ef9d862a9d6310[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 22:19:58 2015 -0300
+
+    Update README.md
+
+[33mcommit 9da89d788db90f92624717ac0d86900bedcbc5e3[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 22:15:50 2015 -0300
+
+    Update README.md
+
+[33mcommit b3edcc5f2de322f5a67419a2055697fa8b5f2bf1[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 19:09:11 2015 -0300
+
+    Update README.md
+
+[33mcommit a1fce4ce84f338522a706f831ac590d6ebf44e0d[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 19:08:03 2015 -0300
+
+    Update README.md
+
+[33mcommit e1ffa9872729c8d2e432a83b3f13bd7a8a3eab42[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 19:06:40 2015 -0300
+
+    Update README.md
+
+[33mcommit ef2fa8a5776f42fff61b3d517597c5d307a3fb29[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 19:03:25 2015 -0300
+
+    Update README.md
+
+[33mcommit 209aeaaa9fe128360ae110777f55b6f3481914d5[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 18:52:07 2015 -0300
+
+    Update README.md
+
+[33mcommit 6241b68514c21c210911fdf02e8ff3d16ddb5586[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 18:07:00 2015 -0300
+
+    Update README.md
+
+[33mcommit 4c9ebb1fa0ea7028ce163c986544574be6618f03[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 18:05:53 2015 -0300
+
+    Update README.md
+
+[33mcommit 1d76bc4ed8a2a6b9df34b3995c3bc21d6f62d63a[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 17:44:24 2015 -0300
+
+    Update README.md
+
+[33mcommit 9a0b7b30e8f6f18b3c9397a80a246311df5ad0e1[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 17:43:17 2015 -0300
+
+    Update README.md
+
+[33mcommit c18dfad1be3e28afa9455bb7d27023120a499153[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 16:07:08 2015 -0300
+
+    Update README.md
+
+[33mcommit ebe227591434cc132553cdaf127c774fe1cc5a7d[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 16:05:16 2015 -0300
+
+    Update README.md
+
+[33mcommit 5a398698b6eaa41e71e68f6c04ce7d5736c4ced4[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 16:03:47 2015 -0300
+
+    Update README.md
+
+[33mcommit ff36c19ecdbdbea50488ee4dc5c640e3b8068c05[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Tue Jan 6 16:02:08 2015 -0300
+
+    Update README.md
+
+[33mcommit cc45e48735f759e7070156fc648b276bd7c38cb5[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Mon Jan 5 00:35:40 2015 -0300
+
+    Update README.md
+
+[33mcommit 59270754ce07a43f909476b031e15641bf0f021f[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Mon Jan 5 00:33:46 2015 -0300
+
+    Update README.md
+
+[33mcommit e2b4850e39376f2a7e39acf80c387531bb6adffc[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Mon Jan 5 00:30:47 2015 -0300
+
+    Update README.md
+
+[33mcommit 98d3bbea68d2bb30c3e169b417e9c36571cf288f[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Mon Jan 5 00:28:43 2015 -0300
+
+    screenshot folder
+
+[33mcommit d9b37bbf8726695add1fa344ef3cd21d19d34883[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Mon Jan 5 00:25:40 2015 -0300
+
+    Update README.md
+
+[33mcommit 481cb7145d5397d7394757a888b6bee2f35fbd01[m
+Author: Rudson Lima <rudsonlive@gmail.com>
+Date:   Mon Jan 5 00:13:24 2015 -0300
+
+    Initial commit

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="feed_bg">#d3d6db</color>
+    <color name="feed_item_bg">#ffffff</color>
+    <color name="feed_item_border">#c2c3c8</color>
+    <color name="link">#0a80d1</color>
+    <color name="timestamp">#a0a3a7</color>
+    <color name="red">#990000</color>
+    <color name="green">#009900</color>
+    <color name="blue">#000099</color>
+    <color name="orange">#FF9900</color>
+
+    <color name="background_color">#012842</color>
+    <color name="background_color_dark">#021522</color>
+    <color name="app_background">#002842</color>
+
+    <color name="app_white">#ffffff</color>
+
+    <color name="_submit_button">#fbaf41</color>
+
+    <color name="_submit_button_selected">#7f4e06</color>
+
+    <color name="_group_layout_title_selected">#004c7e</color>
+
+    <color name="profile_menu_line">#012842</color>
+
+    <color name="lightgray">#e7e7e7</color>
+    <color name="lightgray02">#bfbfbf</color>
+    <color name="dark">#000015</color>
+    <color name="lightgreen">#336666</color>
+    <color name="orrange">#e33d1b</color>
+    <color name="darkorrange">#cc2303</color>
+
+    <color name="menu_nav_selection_yellow">#faaf40</color>
+    <color name="menu_nav_selection_reddish">#bd1e2c</color>
+
+    <color name="border_color">#dedede</color>
+    <color name="header_color">#f6f6f6</color>
+    <color name="header_border_shadow">#ffffff</color>
+    <color name="section_color">#f0f0f0</color>
+
+    <color name="holo_blue">#FF33B5E5</color>
+</resources>

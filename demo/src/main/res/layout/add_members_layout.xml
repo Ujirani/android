@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    tools:context=".SignUpActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearProfileHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+		
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/icon_member_top" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <ImageView
+                android:id="@+id/imageMenuLeft"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/menu_nav_selector"
+                android:clickable="true"
+                android:src="@drawable/icon_members_back" />
+
+            <ImageView
+                android:id="@+id/imageMenuRight"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/menu_nav_selector"
+                android:clickable="true"
+                android:src="@drawable/icon_members_add" />
+
+            <TextView
+                android:id="@+id/textContactsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Add Members"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/app_white" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="7dp"
+            android:background="#ffffff" />
+    </LinearLayout>
+	
+    <LinearLayout
+        android:id="@+id/linearProfileBody"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearProfileHeader"
+        android:layout_marginTop="10dp"
+        android:background="@color/app_white"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:listSelector="@drawable/list_holder_selector"
+            android:choiceMode="multipleChoice"
+            android:fastScrollEnabled="true"
+            android:smoothScrollbar="true" 
+            
+            tools:listitem="@layout/contacts_item" >
+        </ListView>
+    </LinearLayout>
+
+</RelativeLayout>

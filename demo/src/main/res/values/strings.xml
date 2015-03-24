@@ -15,9 +15,6 @@
    ~ limitations under the License.
 -->
 <resources>
-
-    <string name="app_name">nDrawer</string>
-
     <string name="sign_in">Sign in</string>
 
     <string name="inbox">Inbox</string>
@@ -35,5 +32,70 @@
     <!-- Toast -->
     <string name="open_user_profile">Open user profile</string>
     <string name="open_settings">Open settings</string>
+    <string name="app_name">Ujirani</string>
+    <string name="app_slogan">Connect with your neighbours</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="sign_up_now">Sign up now</string>
+    <string name="terms">By continuing you agree to our terms and conditions</string>
+    <string name="terms_link">Ujirani Terms of Service and Privacy Policy</string>
+    <string name="sign_up">Sign up with Ujirani</string>
+    <string name="why_phone">Why Ujirani needs a phone number</string>
+    <string name="need_number">We need your phone number to contact you during emergencies</string>
+    <string name="font">fonts/organo.ttf</string>
+    <string name="invite">Invite three of your neighbours and get social</string>
+    <string name="where">Where do you live?</string>
+    <string name="facebook_app_id">1553228224941926</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="phone_number">phone number</string>
+    <string name="copyright">(c)2014 Ujirani</string>
+    <string name="login">Login</string>
+    <string name="passwoedHolderText">password</string>
+    <string name="username">username</string>
+    <string name="submit">Submit</string>
+    <string name="sign_in_with_facebook">Sign in with Facebook</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string-array name="accordion_sections">
+        <item>Security Services</item>
+        <item>Ambulance Services</item>
+        <item>Fire Station Services</item>
+    </string-array>
+
+    <integer-array name="accordion_visibility">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <string-array name="accordion_string_1">
+        <item>Security 1</item>
+        <item>Security 2</item>
+        <item>Security 3</item>
+        <item>Security 4</item>
+    </string-array>
+    <string-array name="accordion_string_2">
+        <item>Security 1</item>
+        <item>Security 2</item>
+        <item>Security 3</item>
+        <item>Security 4</item>
+    </string-array>
+    <string-array name="accordion_string_3">
+        <item>Security 1</item>
+        <item>Security 2</item>
+        <item>Security 3</item>
+        <item>Security 4</item>
+    </string-array>
+    <string-array name="accordion_string_4">
+        <item>Security 1</item>
+        <item>Security 2</item>
+        <item>Security 3</item>
+        <item>Security 4</item>
+    </string-array>
+
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
 
 </resources>

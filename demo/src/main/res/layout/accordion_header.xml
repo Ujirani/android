@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:accordion="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white" >
+
+    <RelativeLayout
+        android:id="@+id/mainHeaderLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1sp"
+        android:layout_marginRight="1sp"
+        android:layout_marginTop="1sp"
+        android:background="@drawable/header_bg"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+        <!-- paddingRight added to center text correctly -->
+
+        <TextView
+            android:id="@+id/foldText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:paddingBottom="7sp"
+            android:paddingLeft="16dp"
+            android:paddingTop="7sp"
+            android:text="Section Name"
+            android:textColor="#0075ca"
+            android:textSize="14sp"
+            tools:ignore="HardcodedText" />
+
+        <com.app.nyumbakumi.accordion.widget.ToggleImageLabeledButton
+            android:id="@+id/foldButton"
+            android:layout_width="24dip"
+            android:layout_height="24dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            accordion:icon_resource="@drawable/icon_accordion_minus"
+            accordion:icon_resource_off="@drawable/icon_accordion_plus" />
+
+    </RelativeLayout>
+
+</LinearLayout>

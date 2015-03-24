@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calendar_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="HardcodedText,ContentDescription" >
+
+        <LinearLayout
+            android:id="@+id/linearProfileHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/icon_member_top" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:id="@+id/imageLaunchDrawerLeft"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="16dp"
+                    android:clickable="true"
+                    android:src="@drawable/icon_member_left" />
+
+                <ImageView
+                    android:id="@+id/imageLaunchDrawerRight"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:clickable="true"
+                    android:src="@drawable/icon_calendar_settings" />
+
+                <TextView
+                    android:id="@+id/textCalendarTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="Calendar"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/app_white" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginTop="7dp"
+                android:background="#ffffff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_calendar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/calendar_layout_shape"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="-10dp"
+                android:paddingBottom="5dp" >
+
+                <TextView
+                    android:id="@+id/textCalendarMonth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="August 2014"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/app_white" />
+
+                <ImageView
+                    android:id="@+id/imageCalendarLeft"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/profile_nav_selector"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:src="@drawable/icon_members_back" />
+
+                <ImageView
+                    android:id="@+id/imageCalendarRight"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/profile_nav_selector"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:src="@drawable/icon_members_forward" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/calendar_rows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/app_white"
+                android:orientation="vertical" >
+
+                <GridView
+                    android:id="@+id/calendarDayView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@color/app_white"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:horizontalSpacing="2dp"
+                    android:numColumns="7"
+                    android:scrollingCache="true"
+                    android:verticalSpacing="5dp">
+                </GridView>
+				
+                <GridView
+                    android:id="@+id/calendarView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/calendar_grid_shape"
+                    android:choiceMode="singleChoice"
+                    android:drawSelectorOnTop="true"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:horizontalSpacing="2dp"
+                    android:listSelector="@drawable/calendar_date_selected"
+                    android:paddingBottom="10dp"
+                    android:numColumns="7" >
+                </GridView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textCalendar_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Annual General Meeting"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/app_white" />
+
+            <TextView
+                android:id="@+id/textCalendar_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="09:00 Am"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0178c8"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textCalendar_place"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John&apos;s Place"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#0178c8"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/textCalendar_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:text="This is a dummy text, please do not waste your time reading this. This is a dummy text, please do not waste your time reading this."
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/app_white"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

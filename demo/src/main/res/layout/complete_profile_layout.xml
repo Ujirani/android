@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SignUpActivity" >
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout
+            android:id="@+id/layout_inner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/app_icon" />
+
+            <TextView
+                android:id="@+id/textCompleteProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Complete Your Profile"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/app_white"
+                android:textSize="25sp" />
+
+            <FrameLayout
+                android:id="@+id/frame_layout_pick"
+                android:layout_width="match_parent"
+                android:layout_height="126dp" >
+
+                <ImageView
+                    android:id="@+id/imagePick"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/image_shape_white"
+                    android:src="@drawable/app_icon"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/btnImagePick"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_horizontal|bottom"
+                    android:onClick="btn_SelectPhoto"
+                    android:text="Select profile photo"
+                    android:textColor="@color/app_white" />
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/editProfileName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textview_shape"
+                android:drawableLeft="@drawable/icon_group_name"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:maxWidth="250dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/app_white"
+                android:textColorHint="@color/app_white"
+                android:textCursorDrawable="@drawable/text_cursor" />
+			
+            <EditText
+                android:id="@+id/editProfileID"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textview_shape"
+                android:drawableLeft="@drawable/icon_group_name"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="ID Number"
+                android:inputType="number"
+                android:maxWidth="250dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/app_white"
+                android:textColorHint="@color/app_white"
+                android:textCursorDrawable="@drawable/text_cursor" />
+            
+            <EditText
+                android:id="@+id/editProfileHseEstate"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/textview_shape"
+                android:drawableLeft="@drawable/icon_location"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="Estate"
+                android:inputType="textCapSentences"
+                android:maxWidth="250dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/app_white"
+                android:textColorHint="@color/app_white"
+                android:textCursorDrawable="@drawable/text_cursor" />
+
+            <EditText
+                android:id="@+id/editProfileHseNo"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/textview_shape"
+                android:drawableLeft="@drawable/icon_location"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="House No. "
+                android:inputType="number"
+                android:maxWidth="250dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/app_white"
+                android:textColorHint="@color/app_white"
+                android:textCursorDrawable="@drawable/text_cursor" />
+			
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_shape"
+                android:maxWidth="250dp"
+                android:text="Next"
+                android:textColor="@color/app_white" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

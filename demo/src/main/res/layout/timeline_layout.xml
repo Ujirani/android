@@ -1,0 +1,286 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    tools:context=".SignUpActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearProfileHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/icon_member_top" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" >
+
+            <ImageView
+                android:id="@+id/imageLaunchDrawerLeft"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:background="@drawable/menu_nav_selector"
+                android:clickable="true"
+                android:src="@drawable/icon_member_left" />
+
+            <ImageView
+                android:id="@+id/imageLaunchDrawerRight"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="16dp"
+                android:background="@drawable/menu_nav_selector"
+                android:clickable="true"
+                android:src="@drawable/icon_member_right" />
+
+            <TextView
+                android:id="@+id/textTimelineProfileTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="Timeline"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/app_white" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_marginTop="7dp"
+            android:background="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearProfileBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearProfileFooter"
+        android:layout_below="@+id/linearProfileHeader"
+        android:layout_marginTop="10dp"
+        android:background="@color/app_white"
+        android:minHeight="400dp"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp" >
+
+        <ImageView
+            android:id="@+id/imagePhoto"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/image_shape_small"
+            android:src="@drawable/avatar" />
+
+        <TextView
+            android:id="@+id/textTimelineProfileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/profile_menu_line" />
+
+        <TextView
+            android:id="@+id/textTimelineProfileProffession"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Fashion Designer"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#939393"
+            android:textSize="13sp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textTimelineProfileLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#939393"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp" >
+
+            <ListView
+                android:id="@+id/timeline_notifications"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/app_white"
+                android:dividerHeight="0.7dp"
+                tools:listitem="@layout/timeline_item_headline" />
+
+            <TextView
+                android:id="@android:id/empty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No Notifications..):-"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#939393"
+                android:textSize="13sp"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearProfileFooter"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:weightSum="100" >
+
+        <LinearLayout
+            android:id="@+id/menu_footer_compose"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="33.3"
+            android:background="@drawable/menu_tab_selector"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#bd1e2c" />
+				
+            <RelativeLayout
+                android:id="@+id/profile_footer_relComments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+				
+                <ImageView
+                    android:id="@+id/imageProfileComments"
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_profile_footer_comment" />
+				
+                <TextView
+                    android:id="@+id/textProfileComments"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/imageProfileComments"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="13sp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+		
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/app_white" />
+		
+        <LinearLayout
+            android:id="@+id/menu_footer_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="33.2"
+            android:background="@drawable/menu_tab_selector"
+            android:clickable="true"
+            android:orientation="vertical" >
+		
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#0099ff" />
+			
+            <RelativeLayout
+                android:id="@+id/profile_footer_relViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+			
+                <ImageView
+                    android:id="@+id/imageProfileViews"
+                    android:layout_width="24dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_profile_footer_views" />
+				
+                <TextView
+                    android:id="@+id/textProfileViews"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/imageProfileViews"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/app_white"
+                    android:textSize="13sp" />
+            </RelativeLayout>
+        </LinearLayout>
+		
+        <View
+            android:layout_width="1.5dp"
+            android:layout_height="wrap_content"
+            android:background="@color/app_white" />
+		
+        <LinearLayout
+            android:id="@+id/profile_footer_likes"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="-2dp"
+            android:layout_weight="33.3"
+            android:background="#bd1e2c"
+            android:clickable="true"
+            android:orientation="vertical" >
+			
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="#faaf40" />
+			
+            <RelativeLayout
+                android:id="@+id/profile_footer_relLikes"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+					
+                <TextView
+                    android:id="@+id/textProfileLikes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:text="Panic"
+                    android:paddingTop="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/app_white"
+                    android:textSize="15sp" />
+					
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,187 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SignUpActivity" >
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" >
+
+        <LinearLayout
+            android:id="@+id/layout_inner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/app_icon" />
+
+            <TextView
+                android:id="@+id/textCreateGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Create Group"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/app_white"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:id="@+id/linear_layout_group_outer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/textview_shape"
+                android:maxWidth="250dp"
+                android:weightSum="100" >
+
+                <LinearLayout
+                    android:id="@+id/linear_layout_group_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="67" >
+
+                    <TextView
+                        android:id="@+id/text_btn_group_info"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.5dp"
+                        android:layout_marginLeft="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_weight="33"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="10dp"
+                        android:text="1. Group Info"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/app_white"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/text_btn_group_members"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0.5dp"
+                        android:layout_marginTop="0.5dp"
+                        android:layout_weight="33"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="10dp"
+                        android:text="2. Members"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/app_white"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/text_btn_group_services"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0.5dp"
+                    android:layout_marginTop="0.5dp"
+                    android:layout_weight="33"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="10dp"
+                    android:text="3. Services"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="@color/app_white"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/editGroupName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/textview_shape"
+                android:drawableLeft="@drawable/icon_group_name"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="Group Name"
+                android:inputType="textCapSentences"
+                android:maxWidth="250dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/app_white"
+                android:textColorHint="@color/app_white"
+                android:textCursorDrawable="@drawable/text_cursor" />
+
+            <TextView
+                android:id="@+id/editGroupLocation"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="3dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/textview_shape"
+                android:drawableLeft="@drawable/icon_location"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:enabled="true"
+                android:clickable="true"
+                android:hint="Press to Select a Location"
+                android:gravity="center_vertical"
+                android:maxWidth="250dp"
+                android:paddingLeft="16dp"
+                android:paddingRight="5dp"
+                android:textColor="@color/app_white"
+                android:textColorHint="@color/app_white"
+                android:drawableEnd="@drawable/ic_action_next_item"
+                android:textCursorDrawable="@drawable/text_cursor" >
+           
+            </TextView>
+
+            <EditText
+                android:id="@+id/editGroupDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/textview_shape"
+                android:ems="10"
+                android:gravity="top|left"
+                android:hint="e.g landmark, avenue, road"
+                android:inputType="textMultiLine"
+                android:maxWidth="250dp"
+                android:minLines="3"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/app_white"
+                android:textColorHint="@color/app_white"
+                android:maxLength="100"
+                android:textCursorDrawable="@drawable/text_cursor" />
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btn_shape"
+                android:maxWidth="250dp"
+                android:text="Next"
+                android:textColor="@color/app_white" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

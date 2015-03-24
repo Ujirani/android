@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearDrawerRight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_white"
+    android:orientation="vertical"
+    android:paddingLeft="2dp" >
+
+    <RelativeLayout
+        android:id="@+id/relativeDrawerRight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/profile_menu_line" >
+
+        <ImageView
+            android:id="@+id/imagePhoto"
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/app_icon" />
+
+        <ImageView
+            android:id="@+id/imageDrawerMenuRight"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/imagePhoto"
+            android:layout_marginLeft="14dp"
+            android:background="@drawable/menu_nav_selector"
+            android:clickable="true"
+            android:src="@drawable/icon_members_back" />
+
+        <ListView
+            android:id="@+id/left_drawerRight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/imagePhoto"
+            android:layout_marginTop="16dp"
+            android:choiceMode="singleChoice"
+            android:divider="@color/app_white"
+            android:dividerHeight="0.7dp"
+            tools:listitem="@layout/drawer_list_item" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="0.7dp"
+            android:layout_alignTop="@+id/left_drawerRight"
+            android:background="@color/app_white" />
+    </RelativeLayout>
+
+</LinearLayout>

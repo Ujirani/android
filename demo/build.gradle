@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "br.liveo.ndrawer"
+        applicationId "com.app.nyumbakumi"
         minSdkVersion 14
         targetSdkVersion 21
         versionCode 1
@@ -20,6 +20,19 @@ android {
 }
 
 dependencies {
-    compile project(':library')
+    compile 'br.com.liveo:navigationdrawer-material:1.0.4'
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'it.neokree:MaterialTabs:0.11'
+    compile files('libs/volley.jar')
+    compile 'com.android.support:recyclerview-v7:21.0.3'
+    compile 'com.github.nicolasjafelle:refreshmenuitem:1.0'
+    compile files('libs/google-play-services.jar')
+    compile 'fr.avianey:facebook-android-api:+@aar'
+
+    compile 'org.apache.httpcomponents:httpmime:4.0-alpha3'
+
+    // Test dependencies. Notice that all I have to include is robotium
+    // because the rest just works using the instrumentTest configuration
+    compile 'com.jayway.android.robotium:robotium-solo:5.2.1'
+
 }

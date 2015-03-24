@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/timeline_shape" >
+
+    <TextView
+        android:id="@+id/textTimeline_members"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="4 New members added to the group"
+        android:textColor="#6f7881"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textTimeline_membersDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timeline_item_members_photos"
+        android:layout_alignParentRight="true"
+        android:text="1 hours ago"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="10sp" />
+
+    <LinearLayout
+        android:id="@+id/timeline_item_members_photos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTimeline_members"
+        android:layout_marginTop="3dp" >
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/timeline_shape"
+            android:padding="1dp"
+            android:src="@drawable/icon_dashboard_thumbnail_1" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/timeline_shape"
+            android:padding="1dp"
+            android:src="@drawable/icon_dashboard_thumbnail_2" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/timeline_shape"
+            android:padding="1dp"
+            android:src="@drawable/icon_dashboard_thumbnail_3" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/timeline_shape"
+            android:padding="1dp"
+            android:src="@drawable/icon_dashboard_thumbnail_4" />
+    </LinearLayout>
+
+</RelativeLayout>

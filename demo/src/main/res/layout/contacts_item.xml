@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/activatedBackgroundIndicator"
+	android:paddingBottom="10dp"
+	android:paddingLeft="2dp"
+	android:paddingRight="2dp"
+    android:paddingTop="10dp" >
+	
+    <QuickContactBadge
+        android:id="@android:id/icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerCrop"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:clickable="false"
+        android:src="@drawable/icon_mama_boi" />
+		
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@android:id/icon"
+        android:orientation="vertical" >
+		
+        <TextView
+            android:id="@+id/contactName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="source-sans-pro"
+            android:text="Mama Kayai"
+            android:textColor="@color/app_background" />
+		
+        <TextView
+            android:id="@+id/contactLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:fontFamily="source-sans-pro"
+            android:text="Apartment Name1 | House B15"            
+            android:textColor="#939393" />
+    </LinearLayout>
+	
+    <ImageView
+        android:id="@+id/imageContactsAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"
+        android:src="@drawable/icon_contacts_add" />
+
+</RelativeLayout>

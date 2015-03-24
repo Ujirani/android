@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background">
+
+    <LinearLayout
+        android:id="@+id/layout_inner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+	
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/app_icon" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="User Verification"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/app_white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/lightgray02"
+            android:textSize="15sp"
+            android:text="Please enter the Verification Code you received via SMS."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editVerificationCode"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/textview_shape"
+            android:ems="10"
+            android:hint="verification code"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            android:textColor="@color/app_white"
+            android:textColorHint="@color/app_white"
+            android:textCursorDrawable="@drawable/text_cursor" />
+
+        <Button
+            android:id="@+id/btn_verification_submit"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_shape"
+            android:text="@string/submit"
+            android:textColor="@color/app_white" />
+    </LinearLayout>
+
+</RelativeLayout>
